@@ -1,4 +1,4 @@
-=== Setup
+### Setup
 
 ```
 git clone git@github.com:jbhatab/middleman-bootstrap.git nicks-site
@@ -16,7 +16,7 @@ middleman server
 
 Open a browser and go to http://localhost:4567. You can then see the 'source/index.html.slim' page. I made a html version of the same page. Go to http://localhost:4567/regular_html to see it, but it will be the same thing.
 
-=== Contentts
+### Contentts
 
 This is a template using middleman and  bootstrap.
 
