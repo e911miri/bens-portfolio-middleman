@@ -14,18 +14,17 @@ middleman server
 ```
 
 
-Open a browser and go to http://localhost:4567. You can then see the 'source/index.html.slim' page. I made a html version of the same page. Go to http://localhost:4567/regular_html to see it, but it will be the same thing.
+Open a browser and go to http://localhost:4567. 
 
-### Contentts
+You can then see the 'source/index.html.slim' page. I made a html version of the same page for reference. Go to http://localhost:4567/regular_html to see it, but it will be the same thing.
 
-This is a template using middleman and  bootstrap.
-
-Bootstrap is a great tool to easily make decently looking websites. Read their docs to see how it works. 
+### Contents
 
 [Bootstrap](http://getbootstrap.com/)
 
 [Middleman](http://middlemanapp.com/)
 
+Bootstrap is a great tool to easily make decently looking websites. Read their docs to see how it works. 
 
 I added a simple jquery click on the second div to show you how to use animations. 
 
