@@ -35,3 +35,14 @@ Use this tool to convert html to slim: [html to slim](http://html2slim.herokuapp
 I am also using sass instead of css because it is much much better than css. I wrote some initial styles in source/stylesheets/application.css.sass.
 
 Bower is used to get libraries like jquery and boostrap, but you shouldn't have to worry about that much.
+
+
+### Hosting the site
+
+Middleman gives you a simple way to make your code hostable.
+
+```
+middleman build
+```
+
+This will make a build folder in your code. It will only contain html, css, and javascript. You can then host this on any webserver just like wordpress. Ask if you have questions.
