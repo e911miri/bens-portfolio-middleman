@@ -10,43 +10,8 @@ $blue: #4183C4
 $radius: 10px
 $spacing: 20px
 
-
-// These are some random styles to show you good
-// usage of sass. Use http://css2sass.herokuapp.com/ to convert
-// css to sass if needed.
-
-#custom-box
-  padding: $spacing
-  width: 100%
-  height: 100px
-  background-color: $grey
-  border-radius: $radius
-  transition: height .5s linear
-
-  &.grow
-    height: 400px
-
-
-.cool-paragraph
-  font-size: 30px
-  color: $blue
-
-
-// Equivilent of above in css
-
-// #custom-box {
-//   padding: 20px;
-//   width: 100%;
-//   height: 100px;
-//   background-color: #e5e5e5;
-//   border-radius: 10px;
-//   transition: height 0.5s linear;
-// }
-// #custom-box.grow {
-//   height: 400px;
-// }
-
-// .cool-paragraph {
-//   font-size: 30px;
-//   color: #4183c4;
-// }
+// Keep the variables in here so they
+// can be shared across all of the pages.
+// You may not add pages but if you do,
+// add a new stylesheet
+@import "home_page"
