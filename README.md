@@ -1,28 +1,31 @@
 ### Setup
 
 ```
-git clone git@github.com:jbhatab/middleman-bootstrap.git nicks-site
+git clone https://github.com/jbhatab/bens-portfolio-middleman.git
 
-cd nicks-site
+cd bens-portfolio-middleman
 
 bower install
 
 bundle install
 
 middleman server
-
 ```
 
 
 Open a browser and go to http://localhost:4567. 
-
-You can then see the 'source/index.html.slim' page. I made a html version of the same page for reference. Go to http://localhost:4567/regular_html to see it, but it will be the same thing.
 
 ### Contents
 
 [Bootstrap](http://getbootstrap.com/)
 
 [Middleman](http://middlemanapp.com/)
+
+[Animte.css](http://daneden.github.io/animate.css/)
+
+[WOW.js](http://mynameismatthieu.com/WOW/)
+
+
 
 Bootstrap is a great tool to easily make decently looking websites. Read their docs to see how it works. 
 
@@ -36,13 +39,9 @@ I am also using sass instead of css because it is much much better than css. I w
 
 Bower is used to get libraries like jquery and boostrap, but you shouldn't have to worry about that much.
 
+I added animate.css and wow.js for you to easily incorporate animations. 
 
-### Hosting the site
+### Bonus - parallax
+Use skrollr to setup parallax.
 
-Middleman gives you a simple way to make your code hostable.
-
-```
-middleman build
-```
-
-This will make a build folder in your code. It will only contain html, css, and javascript. You can then host this on any webserver just like wordpress. Ask if you have questions.
+[skrollr](http://prinzhorn.github.io/skrollr/)
