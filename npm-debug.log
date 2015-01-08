@@ -1,0 +1,189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'chai' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'chai', null ]
+5 verbose cache add name=undefined spec="chai" args=["chai",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'chai',
+6 verbose parsed url   path: 'chai',
+6 verbose parsed url   href: 'chai' }
+7 silly lockFile 353fd541-chai chai
+8 verbose lock chai /Users/tomiwaijaware/.npm/353fd541-chai.lock
+9 silly lockFile 353fd541-chai chai
+10 silly lockFile 353fd541-chai chai
+11 verbose addNamed [ 'chai', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 583c5f63-chai chai@
+14 verbose lock chai@ /Users/tomiwaijaware/.npm/583c5f63-chai.lock
+15 silly addNameRange { name: 'chai', range: '*', hasData: false }
+16 verbose request where is /chai
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 753db53fda1c2e33
+19 verbose url raw /chai
+20 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+21 verbose url resolved https://registry.npmjs.org/chai
+22 verbose request where is https://registry.npmjs.org/chai
+23 info trying registry request attempt 1 at 17:24:47
+24 verbose etag "26N5D15MGLM6Q07UC6YRARO3P"
+25 http GET https://registry.npmjs.org/chai
+26 http 304 https://registry.npmjs.org/chai
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Wed, 17 Dec 2014 16:24:48 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Wed, 17 Dec 2014 16:24:48 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"26N5D15MGLM6Q07UC6YRARO3P"',
+27 silly registry.get     age: '59',
+27 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1418833488.088921,VS0,VE1',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/chai from cache
+29 silly addNameRange number 2 { name: 'chai', range: '*', hasData: true }
+30 silly addNameRange versions [ 'chai',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.6',
+30 silly addNameRange     '0.1.7',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.3',
+30 silly addNameRange     '0.3.4',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.5.3',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.4.0',
+30 silly addNameRange     '1.4.1',
+30 silly addNameRange     '1.4.2',
+30 silly addNameRange     '1.5.0',
+30 silly addNameRange     '1.6.0',
+30 silly addNameRange     '1.6.1',
+30 silly addNameRange     '1.7.0',
+30 silly addNameRange     '1.7.1',
+30 silly addNameRange     '1.7.2',
+30 silly addNameRange     '1.8.0',
+30 silly addNameRange     '1.8.1',
+30 silly addNameRange     '1.9.0',
+30 silly addNameRange     '1.9.1',
+30 silly addNameRange     '1.9.2',
+30 silly addNameRange     '1.10.0' ] ]
+31 verbose addNamed [ 'chai', '1.10.0' ]
+32 verbose addNamed [ '1.10.0', '1.10.0' ]
+33 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+34 verbose lock chai@1.10.0 /Users/tomiwaijaware/.npm/6724da50-chai-1-10-0.lock
+35 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+36 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+37 silly lockFile 583c5f63-chai chai@
+38 silly lockFile 583c5f63-chai chai@
+39 silly resolved [ { author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+39 silly resolved     name: 'chai',
+39 silly resolved     description: 'BDD/TDD assertion library for node.js and the browser. Test framework agnostic.',
+39 silly resolved     keywords: [ 'test', 'assertion', 'assert', 'testing', 'chai' ],
+39 silly resolved     homepage: 'http://chaijs.com',
+39 silly resolved     license: 'MIT',
+39 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+39 silly resolved     version: '1.10.0',
+39 silly resolved     repository: { type: 'git', url: 'https://github.com/chaijs/chai' },
+39 silly resolved     bugs: { url: 'https://github.com/chaijs/chai/issues' },
+39 silly resolved     main: './index',
+39 silly resolved     scripts: { test: 'make test' },
+39 silly resolved     engines: { node: '>= 0.4.0' },
+39 silly resolved     dependencies: { 'assertion-error': '1.0.0', 'deep-eql': '0.1.3' },
+39 silly resolved     devDependencies:
+39 silly resolved      { component: '*',
+39 silly resolved        karma: '0.12.x',
+39 silly resolved        'karma-mocha': '*',
+39 silly resolved        'karma-sauce-launcher': '0.2.x',
+39 silly resolved        'karma-phantomjs-launcher': '0.1.1',
+39 silly resolved        mocha: '1.21.x',
+39 silly resolved        istanbul: '0.2.x' },
+39 silly resolved     gitHead: 'c8b3208ce4237d4e0b16508174d616f155c984a2',
+39 silly resolved     _id: 'chai@1.10.0',
+39 silly resolved     _shasum: 'e4031cc87654461a75943e5a35ab46eaf39c1eb9',
+39 silly resolved     _from: 'chai@',
+39 silly resolved     _npmVersion: '2.0.0',
+39 silly resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'e4031cc87654461a75943e5a35ab46eaf39c1eb9',
+39 silly resolved        tarball: 'http://registry.npmjs.org/chai/-/chai-1.10.0.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/chai/-/chai-1.10.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install chai@1.10.0 into /usr/local/lib
+41 info installOne chai@1.10.0
+42 verbose lib/node_modules/chai unbuild
+43 verbose tar unpack /Users/tomiwaijaware/.npm/chai/1.10.0/package.tgz
+44 silly lockFile 5ccb9df2--usr-local-lib-node-modules-chai tar:///usr/local/lib/node_modules/chai
+45 verbose lock tar:///usr/local/lib/node_modules/chai /Users/tomiwaijaware/.npm/5ccb9df2--usr-local-lib-node-modules-chai.lock
+46 silly lockFile c349d9ff-ware-npm-chai-1-10-0-package-tgz tar:///Users/tomiwaijaware/.npm/chai/1.10.0/package.tgz
+47 verbose lock tar:///Users/tomiwaijaware/.npm/chai/1.10.0/package.tgz /Users/tomiwaijaware/.npm/c349d9ff-ware-npm-chai-1-10-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/chai'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/chai']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/chai',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/chai',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "-g" "chai"
+53 error cwd /Users/tomiwaijaware/Documents/projects/bens-portfolio-middleman
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/chai
+57 error fstream_path /usr/local/lib/node_modules/chai
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/chai'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]
