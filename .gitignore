@@ -22,7 +22,7 @@ docs/
 /node_modules
 
 # Ignore the build directory
-/build
+build
 
 # Ignore cache
 /.sass-cache
